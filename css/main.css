@@ -1,0 +1,51 @@
+/*nav bar*/
+.navPad {
+	padding: 10px 0;
+}
+nav {
+	margin: 0 10%;
+}
+.bannerLeft, .menuRight {
+	display: inline-block;
+}
+
+.menuRight {
+	float: right
+}
+.menuRight a {
+	color: red; 
+}
+a img {
+	height: 35px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.testList {
+	display: none;
+	position: absolute;
+}
+
+.homeLi:hover .testList {
+	display: list-item;
+	border: 1px black solid;
+}
+
+
+/*shoes displayed*/
+.shoeTemp p {
+margin: 0
+}
+
+button.btn.btn-primary {
+    background: #b30f0f;
+}
+
+.shoename.shoe.size {
+    padding: 0 0 5px;
+}
